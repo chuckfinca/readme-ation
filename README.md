@@ -1,5 +1,3 @@
-# readme-ation
-
 ## Overview
 `readme-ation` automates the generation of a `README.md` file with setup and run instructions tailored for your Python project. By analyzing your project’s Python files, it identifies imported packages, determines their versions, and updates your README with precise environment setup instructions. Additionally, it allows you to seamlessly add comprehensive project descriptions.
 
@@ -15,7 +13,7 @@
 
 ## Installation
 To install `readme-ation`, use pip:
-```bash
+```shell
 pip install readme-ation
 ```
 

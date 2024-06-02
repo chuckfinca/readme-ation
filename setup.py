@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="readme-ation",
-    version="0.1.11",
+    version="0.1.13",
     packages=find_packages(),
     author='Charles Feinn',
     author_email='chuckfinca@gmail.com',
@@ -16,5 +16,8 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.8',
+    install_requires=[
+        'pkg_vers>=0.0.1',
+    ],
     license_files = ('LICENSE.txt',),
 )
