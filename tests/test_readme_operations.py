@@ -1,5 +1,5 @@
 import unittest
-from readme_ation.readme_generator import open_or_create_readme
+from readme_ation.generator import open_or_create_readme
 
 class TestReadmeOperations(unittest.TestCase):
 

@@ -7,6 +7,7 @@ readme_path = project_folder_path + "README.md"
 
 # Example project details
 project_details = {
+    'title': 'Custom Title',
     'overview': 'This is an example project that demonstrates the usage of readme-ation.',
     'motivation': 'Automating README generation saves time and ensures consistency.',
     'technologies': 'Python, Mamba, and other dependencies.',
