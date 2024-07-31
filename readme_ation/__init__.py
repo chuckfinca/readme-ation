@@ -1,3 +1,2 @@
 from readme_ation.generator import add_project_description
 from readme_ation.generator import add_setup_with_versions
-from readme_ation.utils import open_or_create_readme
