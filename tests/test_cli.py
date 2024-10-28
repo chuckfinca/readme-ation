@@ -52,6 +52,7 @@ class TestReadmeAtion(unittest.TestCase):
         
         self.assertIn('numpy', content)
         self.assertIn('pandas', content)
+        self.assertIn('pkg-vers', content)
 
     def test_main_add_project_description(self):
         project_details = {
